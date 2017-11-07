@@ -3,6 +3,12 @@
 
 int main(){
 
-    printf("2 + 3 = %i\n", 2 + 3);
+    int op1 = 7;
+    int op2;
+
+    printf("Opeando 2: ");
+    scanf(" %i", &op2);
+
+    printf("%i + %i = %i\n", op1, op2, op1 + op2);
     return EXIT_SUCCESS;
 }
