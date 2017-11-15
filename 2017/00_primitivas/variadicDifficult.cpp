@@ -10,7 +10,7 @@ int main(){
     int Resultado;
     int n;
 
-    printf("Bienvenido/a a La calculadora programadora, en ella podrás realizar diversas operaciónes con dos números\n");
+    printf("Bienvenido/a a 'Pascalina', la calculadora adivina, en ella podrás realizar diversas operaciónes con dos números\n");
     printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
 
     printf("Introducir el primer número deseado: ");
@@ -38,7 +38,7 @@ do{
 
     switch(Opcion) {
     case 0:
-           printf("Gracias por usar La Calculadora Programadora, esperamos que te haya sido de utilidad. Muchas gracias\n");
+           printf("Gracias por usar 'Pascalina', esperamos que te haya sido de utilidad. Muchas gracias\n");
            return EXIT_SUCCESS;
     break;
 
