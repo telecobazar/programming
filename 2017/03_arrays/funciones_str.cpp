@@ -30,6 +30,7 @@ int main(){
 
     frase[2] == 'v'; //Operador de tipo relacional - Notación de matrices
     *d == 'v';      //Notación de punteros
+    *(d+2) == 'm';  //Aritmética de punteros - El 2 está en aritmética de punteros
     printf(" d ocupa %lu bytes\n", sizeof(d));
 	return EXIT_SUCCESS;
 }
