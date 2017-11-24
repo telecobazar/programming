@@ -10,7 +10,7 @@ int main(){
   int lista[N];
 
   char no_[N] = { 'p', 'e', 'p', 'e','\0' };
-  char nom[N] = "Pepe";
+  char nom[N] = "pepe";
 
   nom[3] = 'a'; //Después de inicializar hay que ir celda a celda (verso a verso)
 
