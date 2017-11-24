@@ -31,6 +31,7 @@ int main(){
     frase[2] == 'v'; //Operador de tipo relacional - Notación de matrices
     *d == 'v';      //Notación de punteros
     *(d+2) == 'm';  //Aritmética de punteros - El 2 está en aritmética de punteros
+    *d + 2 == 'x';  //El código Asci de la v es 118, si lo sumo son 120 y se corresponde con la x
     printf(" d ocupa %lu bytes\n", sizeof(d));
 	return EXIT_SUCCESS;
 }
