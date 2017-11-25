@@ -16,6 +16,10 @@ In this folder you will find the exercises that I have been doing in my programm
 ## Proyects
 In this folder you can find projects on which I apply my knowledge as I progress in my classes. These are projects that I do selflessly to strengthen what I learn
 
+## C++
  - Dime tu nombre: This program simply asks you your name and writes it on the screen through a string of characters
  - Mayor o Menor: This program will ask you for two numbers, and will tell you which one is bigger on the screen
  - Variadic: In this program you will be asked for a number, and will make a sum with another real number already marked in the program
+
+## C
+- Hello World: A simple program that print "Hello World"
