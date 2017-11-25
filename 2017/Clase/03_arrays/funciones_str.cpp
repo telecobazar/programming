@@ -1,3 +1,8 @@
+//PROGRAMA EN C++
+//AUTOR: JESÚS MARÍA CALDERÓN - GITHUB JELUCHU
+//https://github.com/Jeluchu
+//ESTE PROGRAMA ES UNA BREVE INTRODUCCIÓN A LOS PUNTEROS
+
 #include <stdio.h>
 #include <stdlib.h>
 

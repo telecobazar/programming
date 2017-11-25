@@ -1,3 +1,8 @@
+//PROGRAMA EN C++
+//AUTOR: JESÚS MARÍA CALDERÓN - GITHUB JELUCHU
+//https://github.com/Jeluchu
+//EN ESTE PROGRAMA TENDRÁS QUE INTRODUCIR DOS NÚMEROS, Y EL PROPIO PROGRAMA TE DIRÁ CUÁL ES MAYOR Y CUÁL ES EL MENOR
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -19,10 +24,10 @@ int main() {
     printf("A continuación, introduce dos números para saber\n");
     printf("cuál de los dos es mayor\n");
     printf("\n");
-    printf("¿Qué deseas realizar?\n");
-    printf("Pulsa 1 para lanzar el programa\n");
-    printf("Pulsa 0 para salir\n");
-    printf("Introduce la opción deseada: ");
+    printf("¿Qué deseas realizar?\n"
+    	   "Pulsa 1 para lanzar el programa\n"
+           "Pulsa 0 para salir\n"
+           "Introduce la opción deseada: ");
 
 do{
     scanf("%i", &opcion);

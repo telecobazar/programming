@@ -1,3 +1,7 @@
+//PROGRAMA EN C++
+//AUTOR: JESÚS MARÍA CALDERÓN - GITHUB JELUCHU
+//https://github.com/Jeluchu
+
 #include <iostream>
 
 using namespace std;
