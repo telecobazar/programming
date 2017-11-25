@@ -1,0 +1,11 @@
+#!/bin/bash
+#Muestra los parámetros.
+
+[[ $# -lt 2 ]] && echo "Mete más parámetros" && exit 1
+echo $# # Cantidad de parámetros
+echo $@ # Todos los parámetros como uno
+echo $* # Todos los parámetros por separado
+echo $1
+echo $0 # Nombre del comando
+echo $(basename $) 
+
