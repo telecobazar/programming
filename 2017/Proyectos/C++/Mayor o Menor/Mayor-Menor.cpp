@@ -9,13 +9,12 @@
 #define ROJO "\x1B[1;31m"
 #define NORMAL "\x1B[0m"
 #define AZUL "\x1B[1;34m"
-#define NEGRITA "\x1B[1m]"
-#define AMARILLO "\x1B[1;33m"
+#define NEGRITA "\x1B[1m"
+#define AZULETE "\x1B[1;36m"
+#define VERDE "\x1B[1;32m"
 
 int main() {
-    int op1;
-    int op2;
-    int opcion;
+    int op1, op2, opcion;
 
     printf("\n");
     system("toilet --gay -fpagga MAYOR O MENOR");
@@ -24,11 +23,11 @@ int main() {
     printf("A continuación, introduce dos números para saber\n");
     printf("cuál de los dos es mayor\n");
     printf("\n");
-    printf("¿Qué deseas realizar?\n"
-    	   "Pulsa 1 para lanzar el programa\n"
-           "Pulsa 0 para salir\n"
-           "Introduce la opción deseada: ");
-
+    printf(VERDE "\t ¿Qué deseas realizar?\n" NORMAL
+    NEGRITA "\t Pulsa 1 " NORMAL "para lanzar el programa\n"
+    NEGRITA "\t Pulsa 0 " NORMAL "para salir\n");
+    printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+    printf(NEGRITA "Introduce la opción deseada: " NORMAL);
 do{
     scanf("%i", &opcion);
     switch(opcion) {
@@ -42,18 +41,19 @@ do{
       scanf("%i", &op2);
 
       if(op1>op2){
-        printf(AMARILLO "El número mayor es: ");
-        printf("%i\n", NORMAL, op1);
-       }
+      printf(AZULETE "El número mayor es: ");
+      printf("%i\n" NORMAL, op1);
+      }
       else
-      if(op2>op1){
-        printf(AMARILLO "El número mayor es: ");
-        printf("%i\n", NORMAL, op2);
-       }
+      {
+      printf(AZULETE "El número mayor es: ");
+      printf("%i\n" NORMAL, op2);
+      }
       break;
 
  default: printf(ROJO "Escoge la opción correcta\n\n" NORMAL);
     }
-   printf(AZUL "Para realizar otra operación, marque una opción: " NORMAL);
+   printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+   printf(NEGRITA "Para realizar otra operación, marque una opción: " NORMAL);
 }while(opcion!=0);
 }

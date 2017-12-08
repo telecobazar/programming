@@ -9,8 +9,8 @@ public class MayorMenor {
 	  System.out.println("Dame el primer número: ");
 	  numero1 = reader.nextInt();
 	  
-	  System.out.println("Dame el segundo número: ");
-	  numero2 = reader.nextInt();
+          System.out.println("Dame el segundo número: ");
+          numero2 = reader.nextInt();
 	  
 	    if (numero1>numero2)
 	        System.out.println(numero1 + " es mayor que " + numero2);
