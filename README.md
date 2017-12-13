@@ -35,6 +35,7 @@ In this folder you can find projects on which I apply my knowledge as I progress
 - LongCircumference: Calculate the length of the circumference
 - EcuaDos: Make a second degree equation
 - ParImpar: This program difference which numbers are even and which are odd
+- LinuxFunTerminal: Simply certain commands that do something fun. For this we will need to install certain packages that you will soon find in this folder in a text
 
 ## C
 - Hello World: A simple program that print "Hello World"
