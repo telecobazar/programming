@@ -34,6 +34,7 @@ In this folder you can find projects on which I apply my knowledge as I progress
 - Zodiaco Futurista: Indicating between what range of dates you were born, will tell you what zodiac sign you are
 - LongCircumference: Calculate the length of the circumference
 - EcuaDos: Make a second degree equation
+- ParImpar: This program difference which numbers are even and which are odd
 
 ## C
 - Hello World: A simple program that print "Hello World"
