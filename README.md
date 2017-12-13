@@ -1,6 +1,12 @@
 # PROGRAMMING
 Learning with exercises of C in programming. This notes/exercises included C++, CSS, HTML and JavaScript
 
+# WARNING!
+You may need to change the permissions of the executables to execute them. For this we will do the following:
+- We will go where we have saved the file
+- We will open the terminal
+- And we will execute the following command: chmod 777 ExecutableName
+
 # This repository contains:
 Below is the list of documents you can find in this repository
 
@@ -26,6 +32,7 @@ In this folder you can find projects on which I apply my knowledge as I progress
 - El Triángulo Alado: According to some information that you indicate to the program, and the options that you give, it will show you the perimeter of the triangle
 - Adivina tu día: Indicate a number from 1 to 7 and it will come out on the day of the week
 - Zodiaco Futurista: Indicating between what range of dates you were born, will tell you what zodiac sign you are
+- LongCircumference: Calculate the length of the circumference
 
 ## C
 - Hello World: A simple program that print "Hello World"
