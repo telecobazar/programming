@@ -33,6 +33,7 @@ In this folder you can find projects on which I apply my knowledge as I progress
 - Adivina tu día: Indicate a number from 1 to 7 and it will come out on the day of the week
 - Zodiaco Futurista: Indicating between what range of dates you were born, will tell you what zodiac sign you are
 - LongCircumference: Calculate the length of the circumference
+- EcuaDos: Make a second degree equation
 
 ## C
 - Hello World: A simple program that print "Hello World"
