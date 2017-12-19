@@ -18,6 +18,8 @@ In this folder you will find the exercises that I have been doing in my programm
  - 02_string: You can find exercises about character strings
  - 03_arrays: You will find more strings of characters and arrays in these exercises
  - 04_QBoss: You enter coordinates of a square, and it is shown with Java in the browser
+ - 05_readline: Use the library <readline / readline.h> to prevent junk terms during the execution of a program
+ - 06_alternativas: Directory where you'll find programs like "Par / Odd" or a bit converter
  - skel.cpp: EXTRA FILE, is a C ++ template
 
 ## Proyects
