@@ -24,7 +24,7 @@ int main(){
          &vertice[X], &vertice[Y], &vertice[Z]);
 
 
-  //salida de datos
+  //Salida de datos
   printf("(%.2lf, %.2lf, %.2lf) => ",
           vertice[X], vertice[Y], vertice[Z]);
 
