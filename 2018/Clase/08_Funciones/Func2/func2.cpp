@@ -1,7 +1,6 @@
 //PROGRAMA EN C++
 //AUTOR: JESÚS MARÍA CALDERÓN - GITHUB JELUCHU
 //https://github.com/Jeluchu
-////Ejercicio inicial de funciones
 
 #include <stdio.h>
 #include <stdlib.h>
