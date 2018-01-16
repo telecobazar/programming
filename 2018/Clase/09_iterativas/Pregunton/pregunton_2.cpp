@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdio_ext.h>
 #include <stdlib.h>
 
 #define MAX 3
@@ -8,6 +9,7 @@ int main(void) {
   int oportunidades = MAX;
 
   do {
+    __fpurge(stdin); /* BORRA EL TUBO DE ENTRADA!! FIN DE PROBLEMA CON LAS LETRAS */
     printf("Dime un número del 1 al 3: ");
     scanf(" %i", &numero);
     oportunidades--;
