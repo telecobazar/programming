@@ -42,9 +42,6 @@
 *.idb
 *.pdb
 
-# Folder
-*.09_estructuras
-
 # Kernel Module Compile Results
 *.mod*
 *.cmd
