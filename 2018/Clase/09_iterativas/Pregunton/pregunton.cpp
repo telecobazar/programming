@@ -10,7 +10,7 @@
 
 int main(void) {
   int numero = 0;
-  int oportunidades = MAX;
+    int oportunidades = MAX;
 
   do {
     __fpurge(stdin);

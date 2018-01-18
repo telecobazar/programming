@@ -6,14 +6,18 @@
 #include <stdio_ext.h>
 #include <stdlib.h>
 
-#define MAX 3
-
 int main() {
 
-for (int c=8; c<10; c++)
-  for (int d=0; d<10; d++)
-    for (int u=0; u<10; u++)
-      printf("%i%i%i\n", c, d, u);
+  printf("\n");
+  for (int f=0; f<3; f++)
+  printf("\t* * * * * * * * *\n");
+    for (int c=0; c<6; c++)
+    printf("\t*\t\t*\n");
+    printf("\t* * * * * * * * *");
+
+  printf("\n\n");
+
+
 
   return EXIT_SUCCESS;
 }
