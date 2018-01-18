@@ -1,3 +1,7 @@
+//PROGRAMA EN C++
+//AUTOR: JESÚS MARÍA CALDERÓN - GITHUB JELUCHU
+//https://github.com/Jeluchu
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
