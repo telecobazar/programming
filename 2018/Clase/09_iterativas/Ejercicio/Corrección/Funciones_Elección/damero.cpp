@@ -28,13 +28,13 @@ void pinta_cuadrado(int l){
 
 int main() {
 
-  int l;
+  int eleccion;
 
     printf("Introduce el valor del lado: ");
-    scanf("%i", &l);
+    scanf("%i", &eleccion);
 
 
-    pinta_cuadrado(l);
+    pinta_cuadrado(eleccion);
 
   return EXIT_SUCCESS;
 }
