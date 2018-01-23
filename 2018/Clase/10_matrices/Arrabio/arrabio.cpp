@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#define N 3
+
+int main() {
+
+int a[N][N] = {
+{1, 4, 6},
+{7, 2, 5},
+{9, 8, 3},
+};
+
+for (int desplaz = 0; desplaz < N; desplaz++) {
+  for (int elemen = 0; elemen < N; elemen++)
+    printf("%4i", a[(desplaz+elemen)%N][elemen%N]);
+  printf("\n");
+}
+  return EXIT_SUCCESS;
+}
