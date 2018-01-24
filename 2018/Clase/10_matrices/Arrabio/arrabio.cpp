@@ -13,7 +13,7 @@ int a[N][N] = {
 
 for (int desplaz = 0; desplaz < N; desplaz++) {
   for (int elemen = 0; elemen < N; elemen++)
-    printf("%4i", a[(desplaz+elemen)%N][elemen%N]);
+    printf("%4i", a[elemen%N][(desplaz+elemen)%N]);
   printf("\n");
 }
   return EXIT_SUCCESS;
