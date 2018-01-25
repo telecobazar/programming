@@ -1,3 +1,7 @@
+//PROGRAMA EN C++
+//AUTOR: JESÚS MARÍA CALDERÓN - GITHUB JELUCHU
+//https://github.com/Jeluchu
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -21,6 +25,6 @@ int main() {
     printf("%i x %i = %i\n", numero, tabla, resultado );
   }
   printf("\n");
-  
+
   return EXIT_SUCCESS;
 }
