@@ -18,34 +18,41 @@
 #define AZUL "\x1B[1;34m"
 #define NEGRITA "\x1B[1m"
 #define AZULETE "\x1B[1;36m"
+
+#define M 2
 #define N 2
+#define P 3
+
+void ver(){
+
+  r[M][P]=a[M][N]*b[N][P]
+
+};
 
 int main(){
 
-int i, k, j;
 
-  double r[i][j]{
-    {0, 0, 0},
-    {0, 0, 0}
-  };
-
-  double a[i][k] = {
+  double a[M][N] = {
         {2, 5},
         {3, 7}
   };
 
-  double b[k][j] = {
+  double b[N][P] = {
         {4, 7, 1},
         {6, 2, 3}
   };
 
-  for (int j = 0; k < N; k++)
-    for (int k = 0; j < N; j++){
-      printf("%4.0f\n", r[i][j]);
-    for (int i = 0; i < N; i++) {
-      printf("%4.0f", r[i][j]);
-    }
-    }
+  double r[M][P]{
+    {0, 0, 0},
+    {0, 0, 0}
+  };
+
+  for (int i = 0; i < M; i++){
+    for (int j = 0; j < P; j++)
+      printf("%4.0lf", r[i][j]);
+    printf("\n");
+  }
+
 
     return EXIT_SUCCESS;
   }
