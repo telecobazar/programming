@@ -23,12 +23,6 @@
 #define N 2
 #define P 3
 
-void ver(){
-
-  r[M][P]=a[M][N]*b[N][P]
-
-};
-
 int main(){
 
 
@@ -51,6 +45,11 @@ int main(){
     for (int j = 0; j < P; j++)
       printf("%4.0lf", r[i][j]);
     printf("\n");
+  }
+
+  for (int i = 0; i < M; i++){
+    for (int j = 0; j < P; j++)
+      r[M][P] = 
   }
 
 
