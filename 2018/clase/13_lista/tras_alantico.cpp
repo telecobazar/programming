@@ -12,6 +12,21 @@ int main(){
       letra++;
     }
 
+    printf("\n\n");
+
+    while( letra != palindromo ){
+      printf(" %c", *(letra-1));
+      letra--;
+    }
+
+/* OTRA SOLUCIÓN
+ * while( letra > palindromo ){
+ *    printf(" %c", *--letra);
+ * }
+ *
+ * printf("\n");
+ *
+*/
     printf("\n");
 
     return EXIT_SUCCESS;
