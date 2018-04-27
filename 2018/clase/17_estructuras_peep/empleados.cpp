@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 #define N 6
-#define PLANTILLA 2 
+#define PLANTILLA 2
+
 typedef struct {
   int id;
   int saldo;
